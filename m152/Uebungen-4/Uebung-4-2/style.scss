@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    animation: rgb 10s infinite linear;
+
+    .elm1 {
+        background-color: #F00;
+        filter: hue-rotate(320deg);
+        grid-column: 1 / 3;
+        grid-row: 1 / 5;
+
+    }
+
+    .elm2 {
+        background-color: #F00;
+        filter: hue-rotate(280deg);
+        grid-column: 3 / 8;
+        grid-row: 1 / 2;
+    }
+
+    .elm3 {
+        background-color: #F00;
+        filter: hue-rotate(240deg);
+        grid-column: 1 / 5;
+        grid-row: 5 / 6;
+    }
+
+    .elm4 {
+        background-color: #F00;
+        filter: hue-rotate(200deg);
+        grid-column: 5 / 9;
+        grid-row: 5 / 6;
+    }
+
+    .elm5 {
+        background-color: #F00;
+        filter: hue-rotate(160deg);
+        grid-column: 8 / 9;
+        grid-row: 1 / 2;
+    }
+
+    .elm6 {
+        background-color: #F00;
+        filter: hue-rotate(120deg);
+        grid-column: 3 / 5;
+        grid-row: 2 / 4;
+    }
+
+    .elm7 {
+        background-color: #F00;
+        filter: hue-rotate(80deg);
+        grid-column: 7 / 9;
+        grid-row: 2 / 5;
+    }
+
+    .elm8 {
+        background-color: #F00;
+        filter: hue-rotate(40deg);
+        grid-column: 5 / 7;
+        grid-row: 2 / 4;
+    }
+
+    .elm9 {
+        background-color: #F00;
+        filter: hue-rotate(0deg);
+        grid-column: 3 / 7;
+        grid-row: 4 / 5;
+    }
+}
+
+@keyframes rgb {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

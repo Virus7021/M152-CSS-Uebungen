@@ -1,0 +1,49 @@
+.person {
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  display: inline-block;
+  -webkit-box-shadow: #777279 1px 1px 1px;
+          box-shadow: #777279 1px 1px 1px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+.person img {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.person button {
+  -webkit-transition: background-color 500ms;
+  transition: background-color 500ms;
+  background-color: #0F0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 80%;
+}
+
+.person-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.person-text {
+  margin-bottom: 10px;
+}
+
+.person--management {
+  background-color: greenyellow;
+}
+
+.person:hover {
+  -webkit-transform: scale3d(1.1, 1.1, 10) rotate3d(1, 1, 1, 20deg);
+          transform: scale3d(1.1, 1.1, 10) rotate3d(1, 1, 1, 20deg);
+}
+
+.person:hover button {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */
