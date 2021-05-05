@@ -11,8 +11,8 @@ body {
       grid-template-rows: 20% 20% 20% 20% 20%;
   -ms-grid-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
       grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-  -webkit-animation: rgb 10s infinite linear;
-          animation: rgb 10s infinite linear;
+  -webkit-animation: rgb 1s infinite linear;
+          animation: rgb 1s infinite linear;
 }
 
 .container .elm1 {
