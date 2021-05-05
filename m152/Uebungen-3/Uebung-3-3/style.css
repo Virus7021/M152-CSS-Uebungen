@@ -39,8 +39,8 @@
 }
 
 .person:hover {
-  -webkit-transform: scale3d(1.1, 1.1, 10) rotate3d(1, 1, 1, 20deg);
-          transform: scale3d(1.1, 1.1, 10) rotate3d(1, 1, 1, 20deg);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .person:hover button {
